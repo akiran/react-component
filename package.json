@@ -4,9 +4,9 @@
   "description": "Boilerplate for opensource react components",
   "main": "index.js",
   "scripts": {
-    "clean": "rimraf dist",
-    "start": "node devServer.js",
-    "lint": "eslint src"
+    "start": "gulp",
+    "test": "NODE_ENV=test karma start --single-run",
+    "dev-test": "NODE_ENV=test karma start"
   },
   "repository": {
     "type": "git",
